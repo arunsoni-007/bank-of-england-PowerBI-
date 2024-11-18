@@ -13,29 +13,6 @@ This project showcases an in-depth analysis of customer data for the Bank of Eng
 - **Monthly and Quarterly Trends**: Insights into balance changes over time.
 - **Gender and Job Classification Insights**: Correlation between job types, gender, and account balances.
 
-![Dashboard Screenshot](replace-with-your-screenshot-path)
-
----
-
-## Data Cleaning Process
-
-### 1. Data Cleaning with Excel
-The raw dataset was processed to ensure consistency and accuracy:
-
-- **Removed Duplicates**: Used the "Remove Duplicates" feature in Excel to ensure unique records.
-- **Handled Missing Values**:
-  - Identified missing fields using conditional formatting.
-  - Replaced missing numerical values (e.g., balances) with `0` or calculated averages.
-  - Replaced missing categorical values (e.g., job classifications) with `"Other"`.
-- **Standardized Data Formats**:
-  - Reformatted dates to `DD-MM-YYYY`.
-  - Converted text columns to proper case.
-- **Created New Columns**:
-  - Added an **Age Group** column to bucket customer ages.
-  - Categorized **Job Classifications** into "White Collar," "Blue Collar," or "Other."
-
-### 2. Export for Power BI
-The cleaned data was exported as a `.CSV` file for Power BI visualization.
 
 ---
 
@@ -62,11 +39,10 @@ To view and interact with the Power BI dashboard, you will need:
 ### Files Included
 - **Cleaned Data**: `cleaned_customer_data.csv`
 - **Power BI Dashboard**: `customer_analysis_dashboard.pbix`
-- **Raw Data**: `raw_customer_data.xlsx` (if applicable)
 
 ---
 
 ## Usage
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/bank-of-england-dashboard.git
+   git clone https://github.com/your-username/bank_of_england_PowerBI.git
